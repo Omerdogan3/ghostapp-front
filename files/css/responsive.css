@@ -308,6 +308,15 @@
      .banner-style-four .banner-content a.banner-btn.style-two {margin-left: auto;margin-right: auto;}
      .banner-style-four .banner-content {padding-bottom: 70px;}
 }
+
+.banner-style-four {
+    padding-bottom: 10px;
+}
+
+.sec-pad{
+    padding-bottom: 20px;
+}
+
 @media (max-width: 320px) {
 	
 }
