@@ -593,10 +593,10 @@ body.active-preloader-ovh {
   letter-spacing: 0.1em;
   line-height: 51px;
   text-transform: uppercase;
-  color: #fff;
+  color: #343434;
   border: 2px solid #fff;
-  background: #F34242;
-  border-color: #F34242;
+  background: #fff;
+  border-color: #fff;
   border-radius: 5px;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
