@@ -1,0 +1,101 @@
+#home-3-google-map {
+    width: 100%;
+    height: 585px;
+}
+#contact-google-map {
+    width: 100%;
+    height: 585px;
+    + .footer-style-one {background-color: #63C3DD;
+    margin-bottom: -120px;}
+}
+
+.contact-page-content {
+    form.contact-form {
+        input,
+        textarea,
+        button[type=submit] {
+            border: none;
+            outline: none;
+            background-color: transparent;
+            padding: 0;
+        }
+        input,
+        textarea {
+            border-bottom: 2px solid #E9F0F2;
+            font-size: 18px;
+            color: #555556;
+            display: block;
+            width: 100%;
+            height: 60px;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            @include placeholder {
+                color: #555556;
+            }
+            &.error {
+                border-bottom-color: red;
+                color: red;
+                @include placeholder {color: red;}
+            }
+        }
+        label.error {display: none !important;}
+        textarea {height: 170px;}
+        button[type=submit] {
+            padding: 0;
+            background: #2DA9CA;
+            display: inline-block;
+            vertical-align: middle;
+            width: 170px;
+            height: 65px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            line-height: 65px;
+            text-transform: uppercase;
+            color: #fff;
+            transition: all .4s ease;
+            &:before {
+                background:#343434;
+            }
+        }
+    }
+    .contact-info {
+    	padding-top: 20px;
+        padding-left: 70px;
+        .single-contact-info {
+        	+ .single-contact-info {margin-top: 45px;}
+        }
+        span {
+            display: block;
+            color: #2DA9CA;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            font-weight: bold;
+            line-height: 1em;
+        }
+        h3,
+        h4,
+        p {
+            margin: 0;
+        }
+        h3 {
+            color: #343434;
+            font-size: 36px;
+            font-weight: 600;
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+        h4 {
+            color: #555556;
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #2DA9CA;
+            font-size: 26px;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+.app-screenshot-style-one {
+    .owl-theme .owl-dots {
+        margin-top: 25px;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        width: 7px;
+        height: 7px;
+        margin: 0px 2.5px;
+    }
+    .owl-theme .owl-dots .owl-dot:hover span,
+    .owl-theme .owl-dots .owl-dot.active span {
+        background: #2DA9CA;
+    }
+    .app-screenshot-carousel-one .owl-stage .owl-item .item img {
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        -webkit-transform: scale(0.93);
+        transform: scale(0.93);
+    }
+    .app-screenshot-carousel-one .owl-stage .owl-item.center .item img {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        box-shadow: drop-shadow-converter(#000000, $angle: 90, $distance: 10px, $spread: 0, $size: 25px, $opacity: 10%);
+    }
+}
+
+.app-screenshot-style-two {
+    padding-bottom: 240px;
+    .sec-title {margin-bottom: 120px;}
+    .owl-theme .owl-nav {
+        margin-top: 50px;
+        [class*=owl-] {margin: 10px;padding: 0;width: 40px;height: 40px;background:rgba(#343434, .1);line-height: 40px;color: #343434;
+            &:hover {background:rgba(#2DA9CA, 1);}
+        }
+    }
+    .owl-theme .owl-dots {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        margin-top: 100px;
+        text-align: center;
+        z-index: 999;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        width: 7px;
+        height: 7px;
+        margin: 0px 2.5px;
+    }
+    .owl-theme .owl-dots .owl-dot:hover span,
+    .owl-theme .owl-dots .owl-dot.active span {
+        background: #813993;
+    }
+    .owl-carousel {
+        z-index: 99;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        &:before {
+            content: url(../img/screenshot-moc-1-1.png);
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -48.9%);
+        }
+        @media (max-width: 1366px) {
+            &:before {
+                content: url(../img/screenshot-moc-1-2.png);
+            }    
+        }
+    }
+    .thm-container {max-width: 1600px;}
+
+}

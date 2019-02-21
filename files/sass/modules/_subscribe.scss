@@ -1,0 +1,13 @@
+.subscribe-style-one {
+	background:#E9F0F2;
+	form.subscribe-form {
+		text-align: center;
+		input, button {border: none;outline: none;background-color: transparent;}
+		input {width: 100%;max-width: 530px;height: 65px;display: inline-block;background:#fff;padding-left: 30px;font-size: 16px;color: #555556;
+			@include placeholder {color: #555556;}
+		}
+		button[type=submit] {width: 175px;height: 65px;vertical-align: middle;margin-left: 10px;background:#2DA9CA;text-transform: uppercase;color: #FFFFFF;font-size: 12px;letter-spacing: .1em;transition: all .4s ease;
+			&:hover {background:#343434;color: #fff;}
+		}
+	}
+}

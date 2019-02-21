@@ -1,0 +1,235 @@
+body {
+    font-family: 'Dosis';
+    color: #717171;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+a:hover,
+a:visited,
+a:focus,
+a:active {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.thm-container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.sec-pad {
+    padding: 120px 0;
+}
+
+.p0 {
+    padding: 0 !important;
+}
+
+.pt0 {
+    padding-top: 0;
+}
+
+.pb0 {
+    padding-bottom: 0 !important;
+}
+
+.mb0 {
+    margin-bottom: 0 !important;
+}
+
+.gray-bg {
+    background: #F5FAFC;
+}
+
+.dark-gray-bg {
+    background: #E9F0F2;
+}
+
+.gray-bg-2 {
+    background:#F8F5FA;
+}
+
+.dark-gray-bg-2 {
+    background: #F2EEF5;
+}
+
+.gray-bg-3 {
+    background:#FAF8F5;
+}
+
+.dark-gray-bg-3 {
+    background:#F5F2EE;
+}
+
+.gray-bg-4 {
+    background:#F9F7F5;
+}
+
+.dark-gray-bg-4 {
+    background:#F1EEEA;
+}
+
+.dark-bg {
+    background: #171717;
+}
+
+.light-dark-bg {
+    background: #212121;
+}
+
+.blue-bg {
+    background: #201940;
+}
+
+.dark-blue-bg {
+    background: #1B1537;
+}
+
+.thm-btn {
+    border: none;
+    outline: none;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    transition: all .4s ease;
+}
+
+
+.sec-title {
+    margin-bottom: 60px;
+    h3 {
+        margin: 0;
+    }
+    span {
+        text-transform: uppercase;
+        color: #2DA9CA;
+        font-size: 14px;
+        letter-spacing: .1em;
+        font-weight: bold;
+        display: block;
+        line-height: 1em;
+    }
+    h3 {
+        font-size: 36px;
+        color: #343434;
+        font-weight: 600;
+    }
+    &.style-two {
+        span {color: #813993;}
+    }
+}
+
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    background: rgba(31, 83, 169, 1);
+    background: -moz-linear-gradient(left, rgba(31, 83, 169, 1) 0%, rgba(44, 157, 206, 1) 64%, rgba(44, 157, 206, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(31, 83, 169, 1)), color-stop(64%, rgba(44, 157, 206, 1)), color-stop(100%, rgba(44, 157, 206, 1)));
+    background: -webkit-linear-gradient(left, rgba(31, 83, 169, 1) 0%, rgba(44, 157, 206, 1) 64%, rgba(44, 157, 206, 1) 100%);
+    background: -o-linear-gradient(left, rgba(31, 83, 169, 1) 0%, rgba(44, 157, 206, 1) 64%, rgba(44, 157, 206, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(31, 83, 169, 1) 0%, rgba(44, 157, 206, 1) 64%, rgba(44, 157, 206, 1) 100%);
+    background: linear-gradient(to right, rgba(31, 83, 169, 1) 0%, rgba(44, 157, 206, 1) 64%, rgba(44, 157, 206, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f53a9', endColorstr='#2c9dce', GradientType=1);
+    box-shadow: drop-shadow-converter(#000000, $angle: 90, $distance: 23px, $spread: 0, $size: 42px, $opacity: 20%);
+    transition: all .4s ease;
+    &:hover {
+        color: #343434;
+    }
+    &.thm-gradient-two {
+        @include thmGradient();
+    }
+    &.yellow-bg {
+        @include thmGradientYellow();
+    }
+}
+
+
+
+
+
+/*
+****
+only add this classto body
+if preloader is on
+other wise REMOVE IT.
+****
+*/
+
+body.active-preloader-ovh {
+    overflow: hidden;
+}
+
+.preloader {
+    background: rgba(31, 83, 169, 1);
+    background: -moz-linear-gradient(left, rgba(31, 83, 169, 1) 0%, rgba(44, 157, 206, 1) 64%, rgba(44, 157, 206, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(31, 83, 169, 1)), color-stop(64%, rgba(44, 157, 206, 1)), color-stop(100%, rgba(44, 157, 206, 1)));
+    background: -webkit-linear-gradient(left, rgba(31, 83, 169, 1) 0%, rgba(44, 157, 206, 1) 64%, rgba(44, 157, 206, 1) 100%);
+    background: -o-linear-gradient(left, rgba(31, 83, 169, 1) 0%, rgba(44, 157, 206, 1) 64%, rgba(44, 157, 206, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(31, 83, 169, 1) 0%, rgba(44, 157, 206, 1) 64%, rgba(44, 157, 206, 1) 100%);
+    background: linear-gradient(to right, rgba(31, 83, 169, 1) 0%, rgba(44, 157, 206, 1) 64%, rgba(44, 157, 206, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f53a9', endColorstr='#2c9dce', GradientType=1);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999999;
+    &.thm-gradient-two {
+        @include thmGradient();
+    }
+    &.yellow-bg {
+        @include thmGradientYellow();
+    }
+    .spinner {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -30px;
+        margin-left: -30px;
+        background-color: #fff;
+        border-radius: 100%;
+        -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+        animation: sk-scaleout 1.0s infinite ease-in-out;
+    }
+
+    @-webkit-keyframes sk-scaleout {
+        0% {
+            -webkit-transform: scale(0)
+        }
+        100% {
+            -webkit-transform: scale(1.0);
+            opacity: 0;
+        }
+    }
+    @keyframes sk-scaleout {
+        0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+        }
+        100% {
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+            opacity: 0;
+        }
+    }
+}

@@ -1,0 +1,148 @@
+.pricing-style-one {
+	.sec-title {margin-bottom: 80px;}
+    .single-pricing {
+    	background:#FFFFFF;
+    	position: relative;
+    	padding-top: 60px;
+    	padding-bottom: 40px;
+    	&.popular {
+    		box-shadow: drop-shadow-converter(#000000, $angle: 90, $distance: 10px, $spread: 0, $size: 25px, $opacity: 5%);
+    	}
+    	.discount-label {
+    		background:#813993;
+    		font-size: 14px;
+    		color: #FFFFFF;
+    		font-weight: 600;
+    		width: 100%;
+    		position: absolute;
+    		bottom: 100%;
+    		left: 0;
+    		text-transform: uppercase;
+    	}
+        h3,
+        ul,
+        p {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        h3 {
+            font-size: 26px;
+            font-weight: 600;
+            color: #343434;
+            margin-bottom: 40px;
+        }
+        ul.list-items {
+        	padding: 0 40px;
+            li {
+                display: block;
+                color: #555556;
+                font-size: 16px;
+                padding: 11.5px 0;
+                &:nth-child(odd) {
+                    background: #F8F5FA;
+                }
+            }
+        }
+        .price-box {
+        	padding-top: 30px;
+        	padding-bottom: 30px;
+        	p {margin: 0;display: inline-block;vertical-align: middle;position: relative;
+				.currency {color: #813993;font-size: 30px;position: absolute;top: 5px;right: 100%;line-height: 1em;}
+				.price-amount {color: #813993;font-size: 60px;line-height: 1em;}
+				.duration {color: #555556;font-size: 20px;position: absolute;bottom: 5px;left: 100%;}
+        	}
+        }
+        .price-btn {
+            display: inline-block;
+            vertical-align: middle;
+            @include thmGradient();
+            color: #FFFFFF;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            text-align: center;
+            width: 190px;
+            height: 55px;
+            border-radius: 27.5px;
+            line-height: 55px;
+            overflow: hidden;
+            &:before {
+                background:#343434;
+                border-radius: 27.5px;
+            }
+        }
+    }
+    &.pricing-page {
+        padding-top: 150px;
+        .single-pricing .discount-label {background:#2DA9CA;}
+        .single-pricing.popular {
+            .price-btn {background-color: #2DA9CA;color: #fff;}
+        }
+        .single-pricing .price-btn {border-radius: 0;border: 2px solid #2DA9CA;color: #2DA9CA;line-height: 51px;background: none;transition: all .4s ease;
+            &:hover {background:#2DA9CA;color: #fff;}
+        }
+        .single-pricing .price-box p .currency,
+        .single-pricing .price-box p .price-amount {color: #2DA9CA;}
+    }
+}
+
+
+.price-style-two {
+    padding-bottom: 90px;
+    .single-pricing-style-two {
+        text-align: center;
+        padding: 0 30px;
+        padding-bottom: 50px;
+        background:#fff;   
+        margin-bottom: 30px;
+        h3 {margin: 0;background:#E9F0F2;text-transform: uppercase;font-size: 12px;color: #343434;font-weight: bold;letter-spacing: .1em;line-height: 53px;}        
+        ul.list-items {
+            padding: 0 40px;
+            li {
+                display: block;
+                color: #555556;
+                font-size: 16px;
+                + li {margin-top: 5px;}
+            }
+        }
+        .price-box {
+            margin-top: 40px;
+            margin-bottom: 30px;
+            p {margin: 0;display: inline-block;vertical-align: middle;position: relative;
+                .currency {color: #2DA9CA;font-size: 30px;position: absolute;top: 5px;right: 100%;line-height: 1em;}
+                .price-amount {color: #2DA9CA;font-size: 60px;line-height: 1em;}
+                .duration {color: #555556;font-size: 20px;position: absolute;bottom: 5px;left: 100%;}
+            }
+        }
+        .price-btn {
+            display: inline-block;
+            vertical-align: middle;
+            @include thmGradient();
+            color: #FFFFFF;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            text-align: center;
+            width: 190px;
+            height: 55px;
+            border-radius: 27.5px;
+            line-height: 55px;
+            border-radius: 0;border: 2px solid #2DA9CA;color: #2DA9CA;line-height: 51px;background: none;
+            margin-top: 35px;
+            transition: all .4s ease;
+            &:hover {background:#2DA9CA;color: #fff;}
+        }
+        &.popular {
+            background:#2DA9CA;
+            box-shadow: drop-shadow-converter(#2DA9CA, $angle: 90, $distance: 10px, $spread: 0, $size: 25px, $opacity: 25%);
+            h3 {background:#4ABCDA;color: #fff;}
+            .price-box p .price-amount,
+            .price-box p .currency,
+            .price-box p .duration {color: #fff;}
+            ul.list-items li {color: #fff;}
+            .price-btn {border-color: #fff;background:#fff;color: #2DA9CA;}
+        }
+    }
+}

@@ -1,0 +1,198 @@
+/***************************************************************************************************************
+|||||||||||||||||||||||||||||||       MASTER STYLESHEET FOR mixup             ||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+****************************************************************************************************************
+* 1. imported styles 
+* 2. miscelnious styles 
+* 3. header styles 
+* 4. banner styles 
+* 5. features styles 
+* 6. video box styles 
+* 7. grow styles 
+* 8. app screenshots styles 
+* 9. brand styles 
+* 10. testimonials styles 
+* 11. subscribe styles 
+* 12. cta styles 
+* 13. faq styles 
+* 14. footer styles 
+* 15. inner banner styles 
+* 16. blog styles 
+* 17. sidebar styles 
+* 18. contact styles 
+* 19. error 404 styles 
+* 20. pricing style
+* 21. team style
+* 22. home page five customize
+* 23. home page six customize
+* 24. home page three customize
+* 25. home page four customize
+****************************************************************************************************************
+||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************/
+
+
+// math functions are not included in sass
+@import "drop-shadow-converter/mathfunctions";
+// import converter
+@import "drop-shadow-converter/drop-shadow-converter";
+// template sass helper functions
+@import "_helper-function.scss";
+
+/************************** 
+* 1. imported styles 
+***************************/
+
+@import 'modules/_imported';
+
+/************************** 
+* 2. miscelnious styles 
+***************************/
+
+@import 'modules/_miscelnious';
+
+/************************** 
+* 3. header styles 
+***************************/
+
+@import 'modules/_header';
+
+/************************** 
+* 4. banner styles 
+***************************/
+
+@import 'modules/_banner';
+
+/************************** 
+* 5. features styles 
+***************************/
+
+@import 'modules/_features';
+
+/************************** 
+* 6. video box styles 
+***************************/
+
+@import 'modules/_video-box';
+
+/************************** 
+* 7. grow styles 
+***************************/
+
+@import 'modules/_grow';
+
+/************************** 
+* 8. app screenshots styles 
+***************************/
+
+@import 'modules/_screenshots';
+
+/************************** 
+* 9. brand styles 
+***************************/
+
+@import 'modules/_brand';
+
+/************************** 
+* 10. testimonials styles 
+***************************/
+
+@import 'modules/_testimonials';
+
+/************************** 
+* 11. subscribe styles 
+***************************/
+
+@import 'modules/_subscribe';
+
+/************************** 
+* 12. cta styles 
+***************************/
+
+@import 'modules/_cta';
+
+/************************** 
+* 13. faq styles 
+***************************/
+
+@import 'modules/_faq';
+
+/************************** 
+* 14. footer styles 
+***************************/
+
+@import 'modules/_footer';
+
+/************************** 
+* 15. inner banner styles 
+***************************/
+
+@import 'modules/_inner-banner';
+
+/************************** 
+* 16. blog styles 
+***************************/
+
+@import 'modules/_blog';
+
+/************************** 
+* 17. sidebar styles 
+***************************/
+
+@import 'modules/_sidebar';
+
+/************************** 
+* 18. contact styles 
+***************************/
+
+@import 'modules/_contact';
+
+/************************** 
+* 19. error 404 styles 
+***************************/
+
+@import 'modules/_error-404';
+
+/************************** 
+* 20. pricing style
+***************************/
+
+@import 'modules/_pricing';
+
+/************************** 
+* 21. team style
+***************************/
+
+@import 'modules/_team';
+
+/************************** 
+* 22. home page five customize
+***************************/
+
+@import 'modules/_home-page-5';
+
+/************************** 
+* 23. home page six customize
+***************************/
+
+@import 'modules/_home-page-6';
+
+/************************** 
+* 24. home page three customize
+***************************/
+
+@import 'modules/_home-page-3';
+
+/************************** 
+* 24. home page two customize
+***************************/
+
+@import 'modules/_home-page-2';
+
+/************************** 
+* 25. home page four customize
+***************************/
+
+@import 'modules/_home-page-4';

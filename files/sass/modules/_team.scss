@@ -1,0 +1,83 @@
+.team-style-one {
+	.single-team-style-one {
+		
+        .img-box {
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            &:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(#E68F48, 0.9);
+                opacity: 0;
+                -webkit-transition: all .4s ease;
+                transition: all .4s ease;
+            }
+            &:hover img {
+                -webkit-transform: scale(1.05);
+                transform: scale(1.05);
+            }
+            &:hover:after {
+                opacity: 1;
+            }
+            >img {
+                width: 100%;
+                -webkit-transition: all .4s ease;
+                transition: all .4s ease;
+            }
+            &:hover {
+                a.view-more {
+                    opacity: 1;
+                }
+            }
+            a.view-more {
+                font-size: 14px;
+                color: #FFFFFF;
+                text-transform: uppercase;
+                letter-spacing: .1em;
+                position: absolute;
+                font-weight: 700;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 99;
+                opacity: 0;
+                transition: all .4s ease;
+            }
+        }
+        .text-box {
+        	text-align: center;
+        	background:#FFFFFF;
+        	padding-top: 30px;
+        	padding-bottom: 30px;
+        	h3, p {margin: 0;}
+        	span {color: #E68F48;text-transform: uppercase;display: block;font-size: 12px;letter-spacing: .1em;font-weight: bold;}
+        	h3 {color: #343434;font-size: 20px;font-weight: 500;}
+        	.social {
+        		a {display: inline-block;vertical-align: middle;width: 26px;height: 26px;border: 2px solid #E68F48;color: #E68F48;font-size: 13px;line-height: 22px;text-align: center;border-radius: 50%;
+                    &.fa-google-plus {font-size: 11px;}
+					+a {margin-left: 10px;}
+        		}
+        	}
+        }
+	}
+    &.team-page {padding-bottom: 80px;
+        .single-team-style-one {margin-bottom: 40px;
+            .img-box {
+                &:after {
+                    background: rgba(#343434, .85);
+                }
+            }
+            .text-box {
+                span {color: #2DA9CA;}
+                .social {
+                    a {border-color:#2DA9CA;color: #2DA9CA;}
+                }
+            }
+        }
+    }
+}

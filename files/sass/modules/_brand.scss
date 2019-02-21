@@ -1,0 +1,48 @@
+.brand-carousel {
+	text-align: center;
+	padding: 52px 0;
+	.owl-nav {display: none;margin: 0;}
+	i {font-size: 160px;color: rgba(#5A8996, .3);transition: all .4s ease;
+		&:hover {color: rgba(#5A8996, 1);}
+	}
+}
+
+.thm-gradient-two-bg {
+	&.brand-section {
+		position: relative;
+		@include thmGradient();
+		&:before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			background: transparent url(../img/pattern-2-1.png) left top repeat;
+			position: absolute;
+			top:0;
+			left: 0;
+			opacity: .5;
+		}
+		i {color: rgba(#E0B3EC, .3);
+			&:hover {color: rgba(#E0B3EC, 1);}
+		}
+	}
+}
+
+.yellow-bg {
+	&.brand-section {
+		position: relative;
+		@include thmGradientYellow();
+		&:before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			background: transparent url(../img/pattern-2-1.png) left top repeat;
+			position: absolute;
+			top:0;
+			left: 0;
+			opacity: .5;
+		}
+		i {color: rgba(#343434, .3);
+			&:hover {color: rgba(#343434, 1);}
+		}
+	}
+}

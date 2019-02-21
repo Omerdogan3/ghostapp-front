@@ -1,0 +1,58 @@
+.home-page-6 {
+	.grow-style-two .grow-content-two span,
+	.feature-style-two .single-feature-style-two i,
+	.pricing-style-one .single-pricing .price-box p .price-amount,
+	.pricing-style-one .single-pricing .price-box p .currency,
+	.testimonials-style-two .single-testimonials-style-two h3,
+    .sec-title span {
+        color: #FBB406;
+    }
+    .feature-style-two .single-feature-style-two:hover i {color: #fff;}
+    .feature-style-two .single-feature-style-two .icon-box:before,
+    .feature-style-two .single-feature-style-two:before {background:#FBB406;}
+    .feature-style-two .single-feature-style-two:hover .icon-box:before {background:rgba(#fff,.1);opacity: 1;}
+    .pricing-style-one .single-pricing .discount-label,
+    .app-screenshot-style-two .owl-theme .owl-dots .owl-dot:hover span, .app-screenshot-style-two .owl-theme .owl-dots .owl-dot.active span,
+    .testimonials-style-two .owl-theme .owl-dots .owl-dot:hover span, .testimonials-style-two .owl-theme .owl-dots .owl-dot.active span {
+    	@include thmGradientYellow();
+    }
+    .footer-style-two .footer-bottom p a,
+    .footer-style-two .footer-bottom p,
+    .cta-style-two .cta-style-two-content .cta-btn .tag-line,
+    .cta-style-two .cta-style-two-content .cta-btn .name,
+    .cta-style-two .cta-style-two-content .cta-btn i,
+    .footer-style-two .footer-top .social a,
+    .pricing-style-one .single-pricing .discount-label {color: #343434;}
+    .pricing-style-one .single-pricing .price-btn,
+    .grow-style-two .grow-content-two .grow-btn-two {
+        transition: all .4s ease;
+    	@include thmGradientYellow();
+    	color: #343434;
+    }
+    .cta-style-two .cta-style-two-content .cta-btn.style-one {
+    	@include thmGradientYellow();    	
+    }
+    .footer-style-two {
+    	@include thmGradientYellow();	
+    }
+    .footer-style-two .footer-bottom {border-top-color: rgba(#343434, .1);}
+    .pricing-style-one .single-pricing .price-btn:before, .grow-style-two .grow-content-two .grow-btn-two:before {color: #fff;background:#383838;}
+    .pricing-style-one .single-pricing .price-btn:hover, .grow-style-two .grow-content-two .grow-btn-two:hover {color: #fff;}
+    .pricing-style-one .single-pricing ul.list-items li {color: #555556;}
+    .pricing-style-one .single-pricing ul.list-items li:nth-child(odd) {background:#FAF8F5;}
+    .cta-style-two .cta-style-two-content .cta-btn.style-one {overflow: hidden;}
+    .cta-style-two .cta-style-two-content .cta-btn.style-one:hover i {color: #fff;}
+    .cta-style-two .cta-style-two-content .cta-btn.style-one:hover i, .cta-style-two .cta-style-two-content .cta-btn.style-one:hover .tag-line, .cta-style-two .cta-style-two-content .cta-btn.style-one:hover .name {color: #fff;}
+    .cta-style-two .cta-style-two-content .cta-btn.style-one:before {
+        border-radius: 40px;
+        background:#343434;
+    }
+    .cta-style-two .cta-style-two-content .cta-btn.style-two {overflow: hidden;}
+    .cta-style-two .cta-style-two-content .cta-btn.style-two:hover i {color: #fff;}
+    .cta-style-two .cta-style-two-content .cta-btn.style-two:hover i, .cta-style-two .cta-style-two-content .cta-btn.style-two:hover .tag-line, .cta-style-two .cta-style-two-content .cta-btn.style-two:hover .name {color: #fff;}
+    .cta-style-two .cta-style-two-content .cta-btn.style-two:before {
+        border-radius: 40px;
+        background:#343434;
+    }
+    .footer-style-two .footer-top .social a:hover {color: #fff;}
+}

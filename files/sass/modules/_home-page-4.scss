@@ -1,0 +1,25 @@
+.home-page-four {
+	background:#1C2135;
+	.preloader, .scroll-to-top {background: none;background:#1C2135;}
+	.scroll-to-top:hover {background: none;background:#F34242;color: #fff;}
+	.dark-bg {background:#191D30;}
+	.sec-title span {color: #F34242;}
+	.sec-title h3 {color: #fff;}
+	.features-style-one .single-features-style-one {background:#191D30;}
+	.features-style-one .single-features-style-one:hover {box-shadow: drop-shadow-converter(#F34242, $angle: 90, $distance: 10px, $spread: 0, $size: 25px, $opacity: 25%);}
+	.features-style-one .single-features-style-one:before {background:#F34242;}
+	.features-style-one .single-features-style-one i, .features-style-one .single-features-style-one h3 {color: #F34242;}
+	.features-style-one .single-features-style-one:hover i, .features-style-one .single-features-style-one:hover h3 {color: #fff;}
+	.features-style-one .single-features-style-one .icon-box:before {background:rgba(#F34242, .1);}
+	.features-style-one .single-features-style-one:hover .icon-box:before {background:rgba(#fff,.1);}
+	.app-screenshot-style-one .owl-theme .owl-dots .owl-dot span {background:#878992;}
+	.app-screenshot-style-one .owl-theme .owl-dots .owl-dot:hover span, .app-screenshot-style-one .owl-theme .owl-dots .owl-dot.active span {background:#F34242;}
+	.faq-style-one .single-faq-style-one {background:#1C2135;}
+	.faq-style-one .single-faq-style-one h3,
+	.faq-style-one .single-faq-style-one p {color: #ECEFFF;}
+	.faq-style-one .single-faq-style-one .icon-box i {color: #F34242;border-color: #F34242;}
+	.faq-style-one .single-faq-style-one .icon-box:before {background:#322436;}
+	.faq-style-one .btn-box a {border-color: #fff;border-radius: 5px;color: #F34242;background:#fff;transition: all .4s ease;
+		&:hover {background:#F34242;color: #fff;border-color: #F34242;}
+	}
+}

@@ -1,0 +1,90 @@
+.faq-style-one {
+    .single-faq-style-one {
+        margin-bottom: 40px;
+        background: #fff;
+        box-shadow: none;
+        position: relative;
+        padding: 50px;
+        padding-bottom: 45px;
+        transition: all .4s ease;
+        &:hover {
+            box-shadow: drop-shadow-converter(#000000, $angle: 90, $distance: 10px, $spread: 0, $size: 25px, $opacity: 5%);
+        }
+        .icon-box {
+            width: 26px;
+            height: 26px;
+            border: 2px solid transparent;
+            line-height: 22px;
+            position: absolute;
+            text-align: center;
+            top: 20px;
+            right: 20px;
+            border-radius: 50%;
+            &:before {
+                content: '';
+                width: 26px;
+                height: 26px;
+                background: #EAF6FA;
+                position: absolute;
+                top: -7px;
+                left: -7px;
+                border-radius: 50%;
+                opacity: 1;
+                z-index: 1;
+                transition: all .4s ease;
+            }
+            i {
+                font-size: 14px;
+                color: #2DA9CA;
+                font-size: 14px;
+                width: 26px;
+                height: 26px;
+                border: 2px solid #2DA9CA;
+                line-height: 22px;
+                display: inline-block;
+                position: relative;
+                border-radius: 50%;
+                z-index: 2;
+            }
+        }
+        h3,
+        p {
+            margin: 0;
+        }
+        h3 {
+            font-size: 20px;
+            color: #343434;
+            font-weight: 600;
+        }
+        p {
+            font-size: 18px;
+            line-height: 36px;
+            color: #555556;
+            font-weight: 500;
+            margin-top: 30px;
+        }
+    }
+    .btn-box {
+        a {
+            display: inline-block;
+            border: 2px solid #2DA9CA;
+            text-align: center;
+            font-size: 12px;
+            color: #2DA9CA;
+            font-weight: bold;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            width: 207px;
+            height: 55px;
+            line-height: 51px;
+            transition: all .4s ease;
+            &:hover {
+                background:#2DA9CA;
+                color: #fff;
+            }
+        }
+    }
+    &.faq-page {
+        padding-bottom: 40px;
+    }
+}

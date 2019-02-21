@@ -1,0 +1,80 @@
+.home-page-five {
+	.preloader,
+	.scroll-to-top {
+		background: rgba(94,59,237,1);
+		background: -moz-linear-gradient(left, rgba(94,59,237,1) 0%, rgba(130,108,253,1) 100%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(94,59,237,1)), color-stop(100%, rgba(130,108,253,1)));
+		background: -webkit-linear-gradient(left, rgba(94,59,237,1) 0%, rgba(130,108,253,1) 100%);
+		background: -o-linear-gradient(left, rgba(94,59,237,1) 0%, rgba(130,108,253,1) 100%);
+		background: -ms-linear-gradient(left, rgba(94,59,237,1) 0%, rgba(130,108,253,1) 100%);
+		background: linear-gradient(to right, rgba(94,59,237,1) 0%, rgba(130,108,253,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e3bed', endColorstr='#826cfd', GradientType=1 );
+		transition: all .4s ease;
+	}
+	.scroll-to-top:hover {color: #fff;}
+	.header-navigation ul.navigation-box > li > .sub-menu li:hover > a {color: #6747F1;}
+	.features-style-one .single-features-style-one i,
+	.video-box-style-one .video-box-content .img-box a.video-popup .inner,
+	.faq-style-one .single-faq-style-one .icon-box i,
+	.faq-style-one .btn-box a,
+	.testimonial-style-one .single-testimonials-style-one .name-box .text-box h4,
+	.footer-style-one .footer-bottom p a,
+	.sec-title span {color: #6747F1;}
+	.grow-style-one .img-box .icon-box,
+	.grow-style-one .grow-content a.grow-btn,
+	.app-screenshot-style-one .owl-theme .owl-dots .owl-dot:hover span, .app-screenshot-style-one .owl-theme .owl-dots .owl-dot.active span,
+	.video-box-style-one .video-box-content .img-box,
+	.subscribe-style-one form.subscribe-form button,
+	.testimonial-style-one .owl-theme .owl-dots .owl-dot:hover span, .testimonial-style-one .owl-theme .owl-dots .owl-dot.active span,
+	.features-style-one .single-features-style-one:before {background:#6747F1;}
+	.faq-style-one .btn-box a,
+	.faq-style-one .single-faq-style-one .icon-box i {border-color: #6747F1;}
+	.features-style-one .single-features-style-one:hover i, .features-style-one .single-features-style-one:hover h3 {color: #fff;}
+
+	.cta-style-one a.cta-btn {
+		background:#6747F1;
+		box-shadow: drop-shadow-converter(#6747F1, $angle: 90, $distance: 10px, $spread: 0, $size: 25px, $opacity: 25%);
+		i {background:#5D3DE3;color: #fff;}
+		.text {
+			.name,
+			.tag-line {color: #FFFFFF;}
+		}
+		&:hover {
+			background:#343434;
+			i {background:#2D2D2D;}
+		}
+		&.style-two {
+			background:#343434;
+			box-shadow: drop-shadow-converter(#343434, $angle: 90, $distance: 10px, $spread: 0, $size: 25px, $opacity: 25%);
+			i {background:#2D2D2D;color: #fff;}
+			.text {
+				.name,
+				.tag-line {color: #FFFFFF;}
+			}			
+			&:hover {
+				background:#6747F1;
+				i {background:#5D3DE3;}
+			}
+		}
+
+	}
+	.testimonial-style-one {
+		.single-testimonials-style-one {
+			&:before {background: transparent url(../img/testi-quote-5.png) left top no-repeat;}
+		}
+	}
+	.home-page-five .subscribe-style-one form.subscribe-form button[type=submit],
+	.grow-style-one .grow-content a.grow-btn:hover {background:#343434;}
+	.home-page-five .faq-style-one .btn-box a:hover {background:#6747F1;}
+	.footer-style-one {background:#F6F5FC;}
+	.footer-style-one .footer-top,
+	.footer-style-one .footer-bottom {background:#EAE9F2;}
+	.footer-style-one:before {background: transparent url(../img/footer-curve-5-1.png) left bottom no-repeat;}
+	.footer-style-one .footer-top .social a:hover {color: #6747F1;}
+	.cta-style-one {background:#F6F5FC;}
+	.subscribe-style-one {background:#EAE9F2;}
+	.gray-bg {background:#F6F5FC;}
+	.dark-gray-bg {background:#EAE9F2;}
+	.faq-style-one .btn-box a:hover {background:#6747F1;color: #fff;}
+	.features-style-one .single-features-style-one:hover {box-shadow: drop-shadow-converter(#6747F1, $angle: 90, $distance: 10px, $spread: 0, $size: 25px, $opacity: 25%);}
+}
